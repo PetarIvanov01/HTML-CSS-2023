@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #CCCCCC;
+}
+
+.navigation ul {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    background-color: #444;
+    list-style-type: none;
+}
+
+.navigation li {
+    display: inline-block;
+    font-size: 24px;
+    line-height: 40px;
+    height: 40px;
+    padding: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.page-content {
+    margin-left: 20px;
+}
+
+.page-content article header h1 {
+    font-size: 28px;
+}
+
+.page-content article header p {
+    font-style: italic;
+}
+
+.page-content>p {
+    font-size: 24px;
+}
+
+footer {
+    background-color: #444;
+}
+
+footer p {
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
