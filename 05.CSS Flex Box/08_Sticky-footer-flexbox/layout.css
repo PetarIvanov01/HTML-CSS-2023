@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    justify-content: flex-start;
+}
+
+header,
+main,
+footer {
+    border-top: 2px solid black;
+    padding: 2em;
+}
+
+p{
+    padding: 0.5em 0;
+}
+main {
+    flex-grow: 1;
+    border-top: none;
+    border-bottom: none;
+}
+
+footer {
+    border-top: none;
+    margin-top: auto;
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);
+}
+
+.site-title {
+    font-weight: bold;
+    font-size: 3em;
+}
+
+body>header {
+    border-bottom: 2px solid black;
+    width: 100%;
+}
