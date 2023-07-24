@@ -1,0 +1,55 @@
+img {
+    background-color: rgb(255, 255, 255);
+}
+
+.site-title {
+    font-weight: bold;
+    font-size: 3em;
+}
+
+a {
+    color: rgb(0, 153, 0);
+}
+
+h1 {
+    padding: 0.5em 0;
+}
+
+h2 {
+    padding: 1em 0 0.5em 0;
+}
+
+p {
+    padding: 0.5em 0;
+}
+
+article img {
+    display: block;
+    border: 3px solid black;
+    background: #fff;
+    padding: 0.5em;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.3);
+
+}
+
+article img.float-left {
+    float: right;
+    margin: 0 3em;
+
+}
+
+article img.float-right {
+    float: left;
+    margin: 0 2em 0 0;
+
+}
+
+blockquote {
+    opacity: 0.5;
+    padding: 1em;
+    width: 40%;
+    float: right;
+    margin: 0 0 1em 1em;
+    font-style: italic;
+    border-left: 1px solid gray;
+}
