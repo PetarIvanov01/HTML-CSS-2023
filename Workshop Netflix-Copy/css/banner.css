@@ -1,0 +1,23 @@
+.section.section-banner {
+    border: none;
+    background: none;
+    z-index: 2;
+    position: relative;
+}
+
+.section-banner {
+    text-align: center;
+}
+
+.section-banner h2 {
+    max-width: 16em;
+    margin-inline: auto;
+}
+
+.section-container .site-p {
+    font-size: 1.2em;
+}
+
+.section-banner .section-container {
+    padding: 4em 0;
+}
