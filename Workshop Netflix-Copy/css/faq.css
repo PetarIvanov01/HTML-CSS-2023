@@ -1,0 +1,44 @@
+.section.faq {
+    padding: 3em 0;
+}
+
+.section.faq .section-container>h2,
+.section.faq .section-container>p {
+    text-align: center;
+}
+
+dt {
+    display: block;
+    padding-bottom: 4px;
+}
+
+
+dd {
+    display: none;
+    padding: 1em 1.5em;
+    border: 2px solid #303030;
+    margin-bottom: 4px;
+}
+
+dt a {
+    background-color: #303030;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    padding: 1em 1.5em;
+}
+
+dt a:after {
+    display: block;
+    content: '+';
+}
+
+dt a:hover {
+    background-color: #111;
+}
+
+dd:target {
+    display: block;
+}
