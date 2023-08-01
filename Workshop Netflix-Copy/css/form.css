@@ -1,0 +1,21 @@
+.free-trail {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    padding-bottom: 1.5em;
+}
+
+.free-trail p {
+    padding: 0;
+}
+
+.free-trail input {
+    display: block;
+    border: none;
+    padding: 0.5em 1em;
+}
+
+input[type='button'] {
+    background-color: #E50914;
+    color: white;
+}
