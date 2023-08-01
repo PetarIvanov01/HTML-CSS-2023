@@ -1,0 +1,6 @@
+.section.section-zigzag>.section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+}

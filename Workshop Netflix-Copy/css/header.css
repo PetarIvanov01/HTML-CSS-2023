@@ -13,10 +13,6 @@ ul {
     position: relative;
 }
 
-.container-main {
-    padding: 2em 0;
-}
-
 .site-header .section-container {
     display: flex;
     align-items: center;

@@ -14,7 +14,6 @@
     height: 34.8em;
     z-index: 1;
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%);
-
 }
 
 .section-container {
@@ -28,29 +27,4 @@
     border-top: 5px solid rgba(255, 255, 255, 0.15);
 }
 
-.section.section-banner {
-    border: none;
-    background: none;
-    z-index: 2;
-    position: relative;
-}
 
-
-.section-banner {
-    text-align: center;
-}
-
-.section-banner h2 {
-    max-width: 16em;
-    margin-inline: auto;
-}
-
-.section-container .site-p {
-    font-size: 1.2em;
-}
-
-.section-banner .section-container {
-    padding: 4em 0;
-}
-
-/* sections */

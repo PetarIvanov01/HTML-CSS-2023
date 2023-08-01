@@ -1,0 +1,22 @@
+.site-footer {
+    padding: 3em 0;
+}
+
+.site-footer .ul-container {
+    display: flex;
+}
+
+.site-footer .ul-container ul {
+    flex: 1 1 auto;
+}
+
+.site-footer .ul-container li {
+    display: block;
+}
+
+.site-footer a {
+    color: #666;
+}
+.site-footer a:hover {
+    color: white;
+}

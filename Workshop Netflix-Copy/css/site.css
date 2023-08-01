@@ -1,5 +1,9 @@
 @import url(reset.css);
 @import url(typography.css);
 @import url(header.css);
+@import url(banner.css);
 @import url(layout.css);
+@import url(section-zigzag.css);
+@import url(faq.css);
 @import url(form.css);
+@import url(footer.css);
