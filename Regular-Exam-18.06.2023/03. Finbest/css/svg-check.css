@@ -1,0 +1,11 @@
+.plans-container > * img {
+    width: 10px;
+    display: block;
+}
+.plans-container > * .available > span {
+    display: block;
+}
+.plans-container > * .available>p {
+    display: flex;
+    gap: 5px;
+}
