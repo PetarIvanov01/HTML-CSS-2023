@@ -1,0 +1,42 @@
+.third-container {
+    background-color: #ADE2DF;
+}
+
+.third-container .container {
+    margin: 0 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+}
+
+.third-container .container .phone-img {
+    flex-basis: 190px;
+    border: 1px dashed #777575;
+}
+
+.third-container .container .content {
+    flex: 0 1 45%;
+}
+
+.third-container .container .content .bold {
+    padding-top: 10px;
+    font-weight: bold;
+    line-height: 2;
+    padding: 0;
+}
+
+.third-container .container .content p {
+    padding-bottom: 0.5em;
+}
+
+.third-container .container .content .explore {
+    margin-top: 10px;
+    width: 130px;
+    border-bottom: 1px solid black;
+}
+
+.third-container .container .content .explore a {
+    color: black;
+    text-decoration: none;
+}

@@ -1,0 +1,19 @@
+.buttons a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.start .container .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 0.8em;
+}
+
+.start .container .buttons a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 1em;
+    border-radius: 6px;
+}

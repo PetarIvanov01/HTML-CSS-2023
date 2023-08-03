@@ -1,0 +1,9 @@
+.fifth-container {
+    display: flex;
+    justify-content: center;
+}
+
+.fifth-container .container {
+    width: 50%;
+}
+

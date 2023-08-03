@@ -1,0 +1,33 @@
+.second-container .container {
+    display: flex;
+    justify-content: center;
+    padding: 3em 6em;
+}
+
+.second-container .container>* {
+    text-align: center;
+}
+.second-container .container>*>* {
+    padding: 0 0.6em;
+}
+
+.second-container .container>*>h3 {
+    padding-bottom: 0.5em;
+}
+
+.second-container .container>*>p {
+    padding-bottom: 3em;
+}
+
+.second-container .container .first {
+    border-left: 1px solid #DFDFDF;
+}
+
+.second-container .container .second {
+    border-left: 1px solid #DFDFDF;
+    border-right: 1px solid #DFDFDF;
+}
+
+.second-container .container .third {
+    border-right: 1px solid #DFDFDF;
+}

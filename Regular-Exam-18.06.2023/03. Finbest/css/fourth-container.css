@@ -1,0 +1,120 @@
+.fourth-container .container {
+    padding-bottom: 3.5em;
+}
+
+.fourth-container .container .pricing-plans {
+    background-color: #F3F5FA;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourth-container .container .pricing-plans a {
+    text-decoration: none;
+    width: fit-content;
+    margin: 0 auto;
+    background-color: #ADE2DF;
+    border-radius: 6px;
+    padding: 2.5px 10px;
+    color: black;
+    display: block;
+}
+
+.fourth-container .container .pricing-plans h3 {
+    padding-top: 0.5em;
+}
+
+/* plans */
+.fourth-container .container .plans {
+    border: 1px solid #DBDBDB;
+    border-radius: 6px;
+}
+
+.fourth-container .container .plans>.plans-container {
+    display: flex;
+}
+
+.fourth-container .container .plans .plans-container>* {
+    display: flex;
+    flex-direction: column;
+    padding: 1.3em 1.5em;
+}
+
+.plans .plans-container .standard,
+.plus {
+    border-right: 1px solid #DBDBDB;
+}
+
+.plus,
+.standard,
+.premium {
+    flex-grow: 1;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.expand {
+    background-color: #ADE2DF;
+}
+
+.price::after {
+    display: block;
+    margin: 0 auto;
+    content: '';
+    border-bottom: 1px solid #DBDBDB;
+    padding-top: 1em;
+}
+
+.price {
+    padding-bottom: 2em;
+}
+
+.price .defenition {
+    padding-left: 8px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.available {
+    margin-bottom: 2em;
+}
+
+.available p {
+    padding-bottom: 10px;
+}
+
+.plans-container .button {
+    text-align: center;
+    background-color: #ADE2DF;
+    padding: 1.2em 1em;
+    border-radius: 6px;
+}
+
+.plans-container .button a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.plans-container .expand .desc {
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.plans-container .expand .button-expand {
+    background-color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 1.2em 0;
+    margin-top: auto;
+}
+
+.plans-container .expand .button-expand a {
+    text-decoration: none;
+    color: white;
+}
